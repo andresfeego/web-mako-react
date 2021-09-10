@@ -1,0 +1,50 @@
+@import "../../Inicialized/variables.scss";
+
+@media screen and (max-width: 1280px) {
+
+.contPasoDiez {
+    width: 95%;    
+}
+
+.linkMobile{
+    font-size: 0.8em;
+}
+
+.contPasoDiez .info{
+    color: $gray2;
+    font-size: 0.8em;
+}
+
+.contPasoDiez .iconoInfo{
+    margin: 0em 0.5em;
+    cursor: pointer;
+    color: $Secondary;
+}
+
+.recomendacion{
+    display: flex;
+    flex-direction: row;
+    margin: 1em auto;
+}
+
+.recomendacion .numero{
+    width: 10vw;
+}
+
+.contRecomendacion{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contRecomendacion img{
+    width: 80%;
+    
+}
+
+.contRecomendacion .textoRecomendacion{
+    margin-bottom: 1em;
+    
+}
+
+}

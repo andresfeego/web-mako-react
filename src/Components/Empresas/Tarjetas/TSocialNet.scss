@@ -1,0 +1,24 @@
+@import "../../../Inicialized/variables.scss";
+
+.listaRedes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.iconoRedes{
+    width: 30px;
+    cursor: pointer;
+}
+
+.redSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.redSocial span{
+    font-size: 0.5em;
+}

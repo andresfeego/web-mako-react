@@ -1,0 +1,12 @@
+@import "../../../Inicialized/variables.scss";
+
+.listaDomiciliarios{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.txtListaDomi{
+    font-size: 0.75em;
+    color: $Secondary;
+}

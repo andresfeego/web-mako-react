@@ -1,0 +1,84 @@
+
+@import '../../Inicialized/variables.scss';
+
+.busquedaCiudad{
+        width: 25%;
+        height: 2.5em;
+        background-color:  #fff;
+        margin-top: 1.5em;
+        border-radius: 1.5em;
+        position: relative;
+        display: block;
+        text-align: center;
+        padding: 0 1em;
+    }
+
+    .buscarCiudad{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    border: none;
+    color: $gray2;
+    font-size: 1em;
+}
+
+.buscarCiudad:focus{
+    outline: none;
+}
+
+
+    #ciudades{
+        height: 2em;
+        margin: 0 auto;
+        font-size: 1.2em;
+        color: $gray2;
+    }
+
+    label + .MuiInput-formControl {
+        margin-top: 1em;
+
+    }
+
+    .MuiFormLabel-root {
+        font-size: 1.1em !important;
+    }
+
+    .MuiInputLabel-formControl {
+        top: 0.8em !important;
+        color: $gray1 !important;
+        left: 0;
+        position: absolute;
+        transform: translate(0, 24px) scale(1);
+    }
+
+    .MuiInputLabel-shrink {
+        transform: translate(0, -0.2em) scale(0.75) !important;
+        transform-origin: top left;
+    }
+    
+    .MuiInput-underline:before {
+        border-bottom: 0px !important;
+        
+    }
+    
+    .Mui-focused{
+        
+        color: $gray2 !important;
+        border-bottom: 5px !important;
+    }
+
+    .ciudades-popup{
+        color: red;
+    }
+
+    #InputAutocom{
+        
+       color: red;
+       border-radius: 1.5em;
+       margin-Top: 0;
+       height: '2em';
+       bottom: '0.8em';
+       position: 'relative'
+    }
+
+    

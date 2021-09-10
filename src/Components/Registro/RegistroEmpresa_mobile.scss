@@ -1,0 +1,41 @@
+@import "../../Inicialized/variables.scss";
+
+@media screen and (max-width: 1280px) {
+
+
+.registroContainer{
+    width: 100%;
+    padding: 0.5em 1em;
+}
+
+.formularioRegistroEmp{
+    width: 100%;
+    min-height: 5vw;
+}
+
+
+.buttonUno{
+    width: 100%;
+    height: 10vw;
+
+
+}
+
+
+.buttonDos{
+    height: 10vw;
+    width: 80%;
+}
+
+
+.buttonTres{
+    width: 80%;
+    height: 10vw;
+}
+
+.registroContainer .descripcionDos{
+    margin-bottom: 5em;
+    font-size: 0.7em;
+}
+
+}

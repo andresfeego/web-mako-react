@@ -1,0 +1,57 @@
+@import '../../Inicialized/variables.scss';
+
+
+.BusquedaCategorias{
+    width: 82%;
+    margin-top: 1.5em;
+    overflow-x: scroll;
+    padding-right: 15em;
+    overflow-y: hidden;
+    list-style-type: none;
+    display: flex;
+    height: 9em;
+}
+
+
+
+.touch{
+    align-items: center;
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+
+#makoTouch{
+    margin-left: 0.5em;
+}
+
+.touch:hover{
+    transform: scale(1.1);
+}
+
+.touch:hover .circulo{
+    background-color: $SecondaryLigth;
+}
+
+.circulo{
+    width: 3em;
+    height: 3em;
+    background-color: $Secondary;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.circulo img{
+    width: 60%;
+    align-self: center;
+}
+
+.textoCat{
+    font-size: 0.6em;
+    width: 100%;
+}
+

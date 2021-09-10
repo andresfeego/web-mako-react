@@ -1,0 +1,20 @@
+@import "../../Inicialized/variables.scss";
+
+.PasoNueveContainer{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.labelPago{
+    text-align: center;
+}
+
+.montoPago{
+    font-size: 1.5em;
+}
+
+.periodoPago{
+    color: $gray1 !important
+}

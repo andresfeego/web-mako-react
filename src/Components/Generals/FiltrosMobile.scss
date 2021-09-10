@@ -1,0 +1,51 @@
+@import "../../Inicialized/variables.scss";
+
+
+@media screen and (max-width: 1280px) {
+
+
+
+    
+.Filtros{
+    width: 50%;
+    margin: 108vw 0em 1em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: auto;
+}
+
+.Filtro{
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $Secondary;
+    padding: 0.2em 2em 0.2em 1em;
+    border-radius: 1em;
+    margin: 0em 0.5em 0.5em 0.5em;
+    position: relative;
+}
+
+.btnCerrar{
+    border: solid 1px transparent;
+    width: 0.5em;
+    height: 0.5em;
+    font-size: 3.1em;
+    color: #fff;
+    background-color: $gray2;
+    position: absolute;
+    right: 0.1em;
+    vertical-align: center;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+
+}
+
+}

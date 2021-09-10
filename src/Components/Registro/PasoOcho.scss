@@ -1,0 +1,182 @@
+@import "../../Inicialized/variables.scss";
+
+.inputFormPasoOcho{
+    width: 100%;
+}
+
+.btnCat{
+    position: absolute;
+    right: 0;
+    margin-right: 0.5em;
+    cursor: pointer;
+}
+
+.btnAsignar{
+    top: 40%;
+    padding: 0.5em;
+    background-color: $primary;
+    border-radius: 10px;
+}
+
+.btnBorrar{
+    top: 30%;
+    color: $promos;
+
+}
+
+.busquedaCat{
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.labelCat{
+    color: $Secondary;
+    font-size: 0.8em;
+}
+
+.categoriasSeleccionables{
+    overflow: scroll;
+    flex: 1;
+}
+
+.categoria{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    text-align: left;
+}
+
+.contCategoria{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: $gray1 solid 1px;
+}
+
+.saltoLineaCat{
+    display: none;
+}
+
+.contBarraBusqueda{
+    height: 2vw;
+    display: flex;
+}
+
+.inputformBusCat {
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+.inputformBusCat input{
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+.barraBusqueda{
+    flex: 1;
+    height: 100%;
+}
+
+.iconBuscar{
+    height: 100%;
+    width: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: $primary;
+}
+
+.radioGroupPasoOcho{
+    padding-left: 1em;
+    flex-wrap: nowrap !important;
+    flex-direction: row !important;
+    justify-content: flex-start;
+}
+
+.contCovid{
+    border: $promos solid 1px;
+    border-radius: 10px;
+    padding: 0.5em;
+
+}
+
+.palabrasClave{
+    margin: 1em 2em;
+}
+
+
+
+/* Example Styles for React Tags*/
+#app {
+    padding: 40px;
+  }
+  
+  div.ReactTags__tags {
+      position: relative;
+  }
+  
+  /* Styles for the input */
+  div.ReactTags__tagInput {
+      width: 200px;
+      border-radius: 2px;
+      display: inline-block;
+  }
+  div.ReactTags__tagInput input.ReactTags__tagInputField,
+  div.ReactTags__tagInput input.ReactTags__tagInputField:focus {
+      height: 31px;
+      margin: 0;
+      font-size: 12px;
+      width: 100%;
+      border: 1px solid #eee;
+      padding: 0 4px;
+  }
+  
+  /* Styles for selected tags */
+  div.ReactTags__selected span.ReactTags__tag {
+      border: 1px solid #ddd;
+      background: #eee;
+      font-size: 12px;
+      display: inline-block;
+      padding: 5px;
+      margin: 0 5px;
+      cursor: move;
+      border-radius: 2px;
+  }
+  div.ReactTags__selected a.ReactTags__remove {
+      color: #aaa;
+      margin-left: 5px;
+      cursor: pointer;
+  }
+  
+  /* Styles for suggestions */
+  div.ReactTags__suggestions {
+      position: absolute;
+  }
+  div.ReactTags__suggestions ul {
+      list-style-type: none;
+      box-shadow: .05em .01em .5em rgba(0,0,0,.2);
+      background: white;
+      width: 200px;
+  }
+  div.ReactTags__suggestions li {
+      border-bottom: 1px solid #ddd;
+      padding: 5px 10px;
+      margin: 0;
+  }
+  div.ReactTags__suggestions li mark {
+      text-decoration: underline;
+      background: none;
+      font-weight: 600;
+  }
+  div.ReactTags__suggestions ul li.ReactTags__activeSuggestion {
+      background: #b7cfe0;
+      cursor: pointer;
+  }

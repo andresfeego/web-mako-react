@@ -1,0 +1,45 @@
+@import "../../Inicialized/variables.scss";
+
+
+.PasoCincoContainer{
+    text-align: center;
+    width: 30vw;
+}
+
+.contEmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.formCorreoTel{
+    margin: 2em 0em;
+}
+
+.iconoAccion{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 0em 0.5em 0em 0em;
+}
+
+.iconoEdit{
+    background-color: $vistos;
+}
+
+.iconoDelete{
+    background-color: $promos;
+}
+
+.radioGroup{
+    display: flex;
+    padding-left: 1em;
+    flex-wrap: nowrap !important;
+    flex-direction: row !important;
+    justify-content: center;
+}

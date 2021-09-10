@@ -1,0 +1,44 @@
+@import "../../Inicialized/variables.scss";
+
+@media screen and (max-width: 1280px) {
+
+
+
+    .Empresa{
+        width: 40vw;
+        height: auto;
+        margin: 5vw auto 1em auto;
+        
+    }
+    
+    
+    
+    .logoEmpresa{
+        width: 80%;
+        margin: 0.1em auto;
+    }
+    
+    
+    .textoEmpresa{
+        font-size: 0.45em;
+        text-align: center;
+        width: 100%;
+        padding: 0em 0.7em ;
+        
+    }
+    
+    .textoEmpresa h2{
+        font-size: 1.3em;
+        color: $gray2;
+    }
+    
+    .textoEmpresa h1{
+        
+        overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: $gray3;
+    }
+
+
+}

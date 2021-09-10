@@ -1,0 +1,45 @@
+@import "../../Inicialized/variables.scss";
+
+.formWeb {
+    padding: 2em 0em 0em 0em;
+}
+
+.formWeb span{
+    padding: 2em 2em 0em 2em;
+    color: $gray1;
+    font-size: 0.8em;
+}
+
+.nombreUsuario{
+    color: $Secondary !important;
+    padding: 0em 0em 0em 0em !important;
+    font-size: 1em !important;
+}
+
+.contRedes{
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.contRedeSocial{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contIconosAccionRedes {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.iconoAccionRedes{
+    width: 25px;
+    height: 25px;
+    font-size: 10;
+}

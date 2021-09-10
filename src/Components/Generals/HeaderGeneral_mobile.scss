@@ -1,0 +1,23 @@
+@import "../../Inicialized/variables.scss";
+
+
+@media screen and (max-width: 1280px) {
+
+
+.HeaderGeneralContainer{
+    padding: 2vw;
+
+}
+
+.HeaderGeneralContainer img{
+    height: 18vw;
+    margin-left: 1vw;
+    
+}
+
+
+.HeaderGeneralContainer h1{
+    font-size: 5vw;    
+}
+
+}

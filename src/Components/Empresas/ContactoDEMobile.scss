@@ -1,0 +1,21 @@
+@import "../../Inicialized/variables.scss";
+
+@media screen and (max-width: 1280px) {
+
+
+.ContactoDE{
+    width: 100%;
+    max-height: unset;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    color: #7d7d7d;
+    margin-bottom: 1em;
+}
+
+.ContactoDELaterales{
+    width: 100%;
+    margin-right: 1em;
+}
+
+}

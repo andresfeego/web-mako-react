@@ -1,0 +1,29 @@
+@import "../../Inicialized/variables.scss";
+
+@media screen and (max-width: 1280px) {
+
+.formHorarios{
+    width: 100%;
+    margin-top: 2em;
+}
+
+.contJornadas{
+    width: 100%;
+    min-height: 5vw;
+    display: flex;
+    padding: 1.5em 0em;
+
+}
+
+.contManTar{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1em;
+}
+
+.selectJornadas{
+    margin: 1em 1em;
+}
+}

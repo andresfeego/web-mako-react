@@ -1,0 +1,29 @@
+@import "../../../../Inicialized/variables.scss";
+
+.horario{
+    display: flex;
+    width: 90%;
+    border-top: $gray1 solid 1px;
+    padding-top: 0.3em;
+    margin-bottom: 0.5em;
+}
+
+.txtHorario{
+    justify-self: flex-start;
+}
+
+.jornadas{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.jornada{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+}
+
+.descJornada{
+    color: $Secondary;
+}

@@ -1,0 +1,84 @@
+@import "../../Inicialized/variables.scss";
+
+.headerEmp{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding-right: 33%;
+    -webkit-box-shadow: 0px -3px 31px -14px #000000; 
+box-shadow: 0px -3px 31px -14px #000000;
+}
+
+
+
+.logoDetalleEmp{
+    height: 100%;
+}
+
+.descripcionEmp{
+    height: 100%;
+    flex: 1;
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.descripcionEmp h1{
+    font-size: 2.8em;
+    color: #fff;
+    margin-top: 0.5em;
+    text-shadow: 0px 0px 8px rgba(0,0,0,0.79);
+}
+
+
+.descripcionEmp h2{
+    font-size: 1em;
+    color: $gray3;
+    margin-left: 2em;
+}
+
+.cal_VisDetalleEmp{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.calificacionesDetalleEmp{
+    flex: 1;
+}
+
+.vistasDetalleEmp{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.4em;
+}
+
+.iconoVistas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em 1em 0.5em 1em;
+}
+
+.iconoVistas span{
+    margin-left: 0.5em;
+    color: #fff;
+}
+
+.colorInfos{
+    color: #fff;
+}
+
+.colorPromos{
+    color: #fff;
+}
+
+.colorVistos{
+    color: #fff;
+}

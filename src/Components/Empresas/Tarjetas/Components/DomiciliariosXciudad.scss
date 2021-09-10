@@ -1,0 +1,22 @@
+@import "../../../../Inicialized/variables.scss";
+
+.listadomis{
+    height: 3.5vw;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.empDomicilios{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    margin-left: 0.5vw;
+    overflow: hidden;
+    border: $primary solid 1px;
+}
+
+
+.listadomis .empDomicilios img{
+    height: 100%;
+}

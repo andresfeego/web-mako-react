@@ -1,0 +1,16 @@
+@import "../../Inicialized/variables.scss";
+
+.cropImage{
+    border-radius: 50%;
+    border: solid $primary 3px;
+    margin: 2em auto;
+    width: 15vw;
+    background: white;
+
+}
+
+.containerCrop{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

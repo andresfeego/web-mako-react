@@ -1,0 +1,85 @@
+@import '../../Inicialized/variables.scss';
+
+
+
+.Empresa{
+    width: 12em;
+    height: 12em;
+    margin: 1em 1em 1em 0em;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.Empresa *{
+    transition: all 0.5s ease 0s;
+}
+
+.Empresa .ciudad{
+    color: $gray2;
+    width: 100%;
+    margin: auto;
+    
+}
+
+.Empresa:hover .ciudad{
+    display: none;
+}
+
+
+.descripcion{
+    display: none;
+}
+
+.Empresa:hover .descripcion{
+    display: inherit;
+}
+
+.Empresa:hover{
+    transform: scale(1.2);
+    height: 14em;
+}
+
+ .Empresa:hover .logoEmpresa {
+    transform: scale(0.9);
+    -webkit-box-shadow: -1px 9px 9px -1px rgba(0,0,0,0.74); 
+    box-shadow: -1px 9px 9px -1px rgba(0,0,0,0.74);
+}
+
+.logoEmpresa{
+    width: 9em;
+    margin: 0.5em auto 0.1em auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border-color: $Secondary !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoEmpresa img{
+    width: 100%;
+    margin: auto;
+    
+}
+
+.textoEmpresa{
+    font-size: 0.55em;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.textoEmpresa h3{
+    font-size: 1.4em;
+    color: $gray2;
+}
+
+.textoEmpresa h2{
+    overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: $gray3;
+}
