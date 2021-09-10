@@ -394,7 +394,7 @@ class PasoCuatro extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyDh3jyWqBKAx7bhRlB4sJ8d0UYvGGm2Xdg'
+  apiKey: ''
 })(withStyles({
 
 
